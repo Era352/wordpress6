@@ -36,8 +36,8 @@ redister_nav_menu(
 function dstheme_sidebars(){
     register_sidebar(
         array(
-            'name' => 'Blog Sidebar',
-            'id' => 'sidebar-blog',
+            'name' => 'Service 1',
+            'id' => 'services-1',
             'description' => 'First service Area.',
             'before_widget' => '<div class = "widget-wrapper">',
             'after_widget' => '</div>',
@@ -48,8 +48,8 @@ function dstheme_sidebars(){
 
     register_sidebar(
         array(
-            'name' => 'Blog Sidebar',
-            'id' => 'sidebar-blog',
+            'name' => 'Service 2',
+            'id' => 'services-2',
             'description' => 'Second service Area.',
             'before_widget' => '<div class = "widget-wwrapper">',
             'after_widget' => '</div>',
@@ -60,8 +60,8 @@ function dstheme_sidebars(){
 
     register_sidebar(
         array(
-            'name' => 'Blog Sidebar',
-            'id' => 'sidebar-blog',
+            'name' => 'Service 3',
+            'id' => 'services-3',
             'description' => 'Third service Area.',
             'before_widget' => '<div class = "widget-wrapper">',
             'after_widget' => '</div>',
